@@ -1,0 +1,19 @@
+.btn-header{
+    background-color:#2D2E80;
+    color: #FFFFFF;
+    font-weight: 600px;
+    line-height: 50%;
+    width: 141.88px;
+    height: 38px;
+    padding: 12px 32px 12px 32px;
+    border-radius: 999px;
+    cursor: pointer;
+}
+.top_header nav {
+    color:#6C6C6C;
+    font-weight: 400px;
+}
+.top_header nav a:first-child{
+    border-bottom: 2px solid #232346;
+    color: #232346;
+}
