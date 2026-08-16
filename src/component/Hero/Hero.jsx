@@ -113,7 +113,7 @@ const hideOnScroll = useTransform(scrollYProgress, [0, 0], [1, 0]);
                 transition={{ duration: 0.8, ease: "easeOut" }}
               >
                 <p className='p1'>SINCE 1996</p>
-                <h1>Every Great Medicine Begins With <br/><span>One Vision.</span></h1>
+                <h1 className='font-Manrope'>Every Great Medicine Begins With <br/><span>One Vision.</span></h1>
                 <p className='p2'>For nearly three decades, Marcyrl has transformed scientific research into trusted pharmaceutical solutions that improve millions of lives across local and international markets.</p>
               </motion.div>
 
