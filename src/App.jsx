@@ -1,6 +1,5 @@
 import TopHeader from "./component/Header/TopHeader.jsx";
-import Hero from "./component/Hero/Hero.jsx";
-
+import Hero from './component/Hero/Hero';
 
 function App() {
   return(
