@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "motion/react"
 import './header.css'
 import { Link } from 'react-router-dom'
 import Logo from '../../img/Logo.png'
@@ -14,6 +15,11 @@ export default function TopHeader() {
 
   ];
   return (
+    <motion.header 
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1, ease: "easeOut" }}
+      className="w-full bg-white border-b border-gray-100 sticky top-0 z-50">
     <div className='top_header w-full h-137px bg-white border-b border-gray-100 '>
         <div className="container mx-auto h-full  flex items-center justify-between  ">
           <img src={Logo} alt=""className='h-88px w-225px object-contain'  />
@@ -28,5 +34,7 @@ export default function TopHeader() {
 
         </div>     
     </div>
+    </motion.header>
+
   )
 }
